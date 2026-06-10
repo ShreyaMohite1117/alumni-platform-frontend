@@ -1,6 +1,7 @@
-import axios from 'axios';
+import axios from "axios";
 
-const API_BASE = "https://amused-joy-production.up.railway.app/api";
+const API_BASE =
+  "https://amused-joy-production-5d8b.up.railway.app/api";
 
 const api = axios.create({
   baseURL: API_BASE,
